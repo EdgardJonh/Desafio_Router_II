@@ -1,0 +1,28 @@
+.isActive{
+ color: rgb(228, 25, 25);
+ text-decoration: none;
+}
+.noActive{
+    color:rgb(173, 173, 173);
+    text-decoration: none;
+}
+
+.Home{
+    min-height: 100vh;
+    background-color: rgb(6, 43, 143);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+.fondoHome{
+   
+    background: linear-gradient( rgba(5, 7, 12, 0.75) 11%, rgba(5,7,12,0.75) 66%),
+    url('https://wallpapers-clan.com/wp-content/uploads/2024/02/pokemon-pikachu-drawn-desktop-wallpaper-preview.jpg') no-repeat center
+    center fixed;
+    background-size: cover;
+
+    /* background: linear-gradient(rgba(), rgba()); */
+}
